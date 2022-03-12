@@ -189,3 +189,21 @@ header nav{
   font-weight: 500;
   font-size: 1.1rem;
 }
+
+footer{
+  width: 100%;
+}
+footer div{
+  height: 40px;
+  background-color: #47cfac;
+}
+footer section {
+  background-color: #333;
+  height: 100px;
+  display: grid;
+  place-content: center;
+}
+footer section h3{  
+  color: rgb(185, 185, 185);
+  font-size: 1.4rem;
+}
