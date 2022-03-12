@@ -13,7 +13,7 @@ body {
   margin: 0;
 }
 
-body .home{
+.home{
   position: fixed;
   left: 0;
   top: 0;
@@ -105,9 +105,6 @@ header nav{
 
 /* blogs */
 
-.main-blogs{
-
-}
 
 .blogs-noticias{
   display: grid;
