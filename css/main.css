@@ -30,6 +30,9 @@ header a{
   text-decoration: underline;
   font-size: 1rem;
 }
+.nav-sobre-mi:hover{
+  color: #47cfac;
+}
 
 header{
   width: 100%;
@@ -54,6 +57,10 @@ header nav{
   width: 200px;
   
 }
+.logo-nav:hover{
+  position: relative;
+  top: -3px;
+}
 
 
 .link-about{
@@ -74,6 +81,10 @@ header nav{
 
 .icon{
   margin: 0 10px;
+}
+.icon:hover{
+  position: relative;
+  top: -3px;
 }
 
 .icons span{
@@ -168,11 +179,18 @@ header nav{
   width: fit-content;
   background-color: rgba(255, 255, 255, 0);
   border: 2px solid #41c052;
+  border-radius: 5px;
   padding: 10px;
   text-decoration: none;
   color: black;
   font-weight: 500;
   font-size: .8rem;
+}
+.leer-mas:hover{
+  box-shadow: 0 0 10px rgb(153, 153, 153);
+  background-color: #41c052;
+  color: #fff;
+  transition: .2s;
 }
 
 
@@ -215,12 +233,10 @@ header nav{
 footer{
   width: 100%;
 }
-footer div{
-  height: 40px;
-  background-color: #47cfac;
-}
+
 footer section {
   background-color: #333;
+  border-top: 35px solid #47cfac;
   height: 100px;
   display: grid;
   place-content: center;
@@ -228,4 +244,110 @@ footer section {
 footer section h3{  
   color: rgb(185, 185, 185);
   font-size: 1.2rem;
+}
+
+.blog-container-img{
+  width: 100%;
+  display: flex;
+}
+
+.blog-container-img img{
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.blog-text-container{
+  width: 100%;
+}
+
+.blog-container{
+  width: 80%;
+  margin: 50px auto;
+}
+
+.blog-text-container h2{
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(196, 191, 191);
+}
+
+.blog-text-container h1{
+  font-size: 2rem;
+  margin: 30px 0;
+}
+
+.blog-text-container p{
+  font-size: .9rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.section-contacto{
+  width: 100%;
+  height: 250px;
+  background-color: rgb(207, 207, 207);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.container-contacto{
+  display: flex;
+  align-items: center;
+}
+
+.logo-contacto{
+  width: 90px;
+  height: 90px;
+}
+
+.contacto-info{
+  font-size: .8rem;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.contacto-info a{
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid #333;
+  padding: 5px 0;
+  margin-bottom: 10px;
+}
+
+.contacto-info p{
+  color: #333;
+}
+
+.blogs-perfil{
+  display: grid;
+  grid-template-columns: .8fr 1.2fr;
+  background-color: rgb(207, 207, 207);
+  padding: 30px 70px;
+  align-items: center;
+}
+.proyectos{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  margin: 30px auto;
+  margin-bottom: 70px;
+  gap: 50px 20px;
+}
+
+.container-proyectos{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container-proyectos h2{
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 40px 0;
+  border-bottom: 1px solid  rgb(207, 207, 207);
+}
+
+.perfil-right{
+  width: 100%;
 }
